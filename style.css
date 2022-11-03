@@ -83,3 +83,24 @@ body {
     color: #c5b358;
     transform: scale(1.5);
 }
+
+@media (min-width: 800px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    .heroText {
+        font-size: 1rem;
+    }
+    
+    .heroName {
+        font-size: 3.5rem;
+    }
+    
+    .button {
+        font-size: 1.1rem;
+    }
+}
